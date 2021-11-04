@@ -10,7 +10,7 @@ export default function App() {
 
   return (
     <div className="App">
-     <h1> My Player</h1>
+     <h1> My PLayer</h1>
       <Waveform url={selectedTrack} />     
       <br />
     </div>
