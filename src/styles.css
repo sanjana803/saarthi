@@ -1,0 +1,39 @@
+body {
+  background: #242525;
+  color: white;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin-left: 10vw;
+margin-right: 10vw;
+margin-top: 20vh;
+}
+.vol{
+  width:90vw;
+}
+.button {
+  background: rgb(100, 103, 104);
+  color: white;
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  outline: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  align-items: center;
+  margin-left: 35vw;
+}
+
+button:hover {
+  background: #4b4b4b;
+}
+
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
